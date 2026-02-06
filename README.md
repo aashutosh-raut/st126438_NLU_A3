@@ -201,6 +201,8 @@ What is your name?
 
 **Output:**  
 तपाईँको नाम
+<img width="1232" height="372" alt="Web-applicaton Translation English  to Nepali" src="https://github.com/user-attachments/assets/c8f49d91-b957-4e90-98be-6f37af137e89" />
+
 
 The translation captures the core semantic meaning, though some function words are omitted.
 
