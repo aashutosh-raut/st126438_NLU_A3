@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>EN → NE Translator</title>
+</head>
+<body>
+    <h2>Nepali–English Neural Machine Translation</h2>
+
+    <form method="POST">
+        <textarea name="text" rows="4" cols="60">{{ source }}</textarea><br><br>
+        <button type="submit">Translate</button>
+    </form>
+
+    {% if translation %}
+        <h3>Translation:</h3>
+        <p>{{ translation }}</p>
+    {% endif %}
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nepali–English Neural Machine Translation</title>
+</head>
+<body>
+
+<h1>Nepali–English Neural Machine Translation</h1>
+
+<form method="POST">
+    <!-- <textarea name="text" rows="5" cols="60">{{ src_text }}</textarea><br><br> -->
+     <textarea name="text" rows="5" cols="60">{{ src_text }}</textarea>
+
+    <button type="submit">Translate</button>
+</form>
+
+<h3>Translation:</h3>
+<p>{{ translation }}</p>
+
+</body>
+</html>

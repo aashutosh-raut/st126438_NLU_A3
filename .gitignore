@@ -1,0 +1,6 @@
+.venv/
+*__pycache__
+/Appendix - LSTM + Attention from Scratch (1).ipynb
+.ipynb_checkpoints/
+/MT + Attention.ipynb
+/MT + Transformer.ipynb
